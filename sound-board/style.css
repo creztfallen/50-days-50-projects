@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2f33;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  top: 15px;
+  color: aliceblue;
+}
+
+.btn {
+  background-color: #449e5b;
+  border-radius: 32px;
+  border: solid 2px aliceblue;
+  color: aliceblue;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.98);
+  background-color: #40da8c;
+  transition: 4.4s ease-in;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn.focus {
+  outline: none;
+}
