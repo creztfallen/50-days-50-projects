@@ -1,6 +1,6 @@
 :root {
-  --line-border-fill: #df4c56;
-  --line-border-empty: #e0e0e0;
+  --line-border-fill: rgb(105, 218, 105);
+  --line-border-empty: #8d8b8b;
 }
 
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f6f7fb;
+  background-color: rgba(37, 39, 38, 0.966);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
   align-items: center;
@@ -75,7 +75,7 @@ body {
 
 .btn {
   background-color: var(--line-border-fill);
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: 0;
   border-radius: 7px;
   cursor: pointer;
